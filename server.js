@@ -4,7 +4,7 @@ var basicAuth = require('basic-auth-connect');
 var bodyParser = require('body-parser');
 var app = express();
 
-app.use(express.static('/www'));
+app.use(express.static(__dirname + '/www'));
 app.use(bodyParser.json());
 
 const db = monk('mongodb/nodetest1');
