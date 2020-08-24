@@ -4492,7 +4492,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }, {
           title: 'Physical harm',
           locator: 'physicalHarm',
-          icon: 'sports_kabaddi'
+          icon: 'pan_tool'
         }, {
           title: 'Theft',
           locator: 'theft',
